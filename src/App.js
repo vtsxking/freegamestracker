@@ -1,7 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Topnav from "./Topnav";
+import Topnav from "./components/Topnav.js";
 import "./root.css";
+import FetchGames from "./components/FetchGames";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <FetchGames/>
     </div>
   );
 }

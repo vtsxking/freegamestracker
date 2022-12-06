@@ -1,5 +1,5 @@
 import "./Topnav.css";
-import "./root.css";
+import "../root.css";
 
 function Topnav() {
   return (
