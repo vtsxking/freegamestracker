@@ -1,11 +1,14 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Topnav from "./Topnav";
+import "./root.css";
 
 function App() {
   return (
     <div className="App">
+      <Topnav />
+
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>react</p>
         <a
           className="App-link"
