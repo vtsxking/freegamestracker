@@ -1,0 +1,13 @@
+.footerWhole {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  justify-content: space-between;
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  color: var(--fontColor);
+  align-items: center;
+}
+.backgroundFooter {
+  background-color: black;
+}

@@ -1,12 +1,13 @@
 import React from "react";
+import "./GameCard.css";
 
-const GameCard = ({title, gameArt}) => {
-    return (
-        <div>
-            <img src={gameArt} alt=""/>
-            <p>{title}</p>
-        </div>
-    );
-}
+const GameCard = ({ title, gameArt }) => {
+  return (
+    <div className="wholeGameCards">
+      <img src={gameArt} alt="" className="GameImg" />
+      <p>{title}</p>
+    </div>
+  );
+};
 
 export default GameCard;

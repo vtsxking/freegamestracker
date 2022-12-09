@@ -1,0 +1,17 @@
+.MainBody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  max-width: 1600px;
+  margin: auto;
+}
+.GameImg {
+  border-radius: 40px;
+}
+.wholeGameCards {
+  padding: 7px;
+}
+.wholeGameCards p {
+  color: var(--fontColor);
+}
