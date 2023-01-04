@@ -29,7 +29,7 @@ function FetchGames() {
               title={game.game.title}
               gameArt={game.game.image.url}
               freeWith={game.type}
-              stores={game.store.name}//.filter(store => store.name !== undefined)}
+              stores={game?.store?.name}//.filter(store => store.name !== undefined)}
               saleDate={game.published_at.split("T")[0]}
             />
           );
